@@ -1,4 +1,4 @@
-# 4dx by Raspberry Pi
+# raspi-4dx
 
 This is a project for making 4dx theater using Raspberry Pi.
 
@@ -15,38 +15,5 @@ Linux:
 
 `wget https://github.com/yuji1997/4dx`
 
-# Directory
-
-```shell
-.
-├── all.sh
-├── gpio_control.py
-├── make_data.sh
-├── movie
-│   ├── Opening.mp4
-│   ├── demo.mov
-│   ├── demo_flip.mov
-│   ├── kiminonaha.mp4
-│   └── kiminonaha_flip.mov
-├── picking.py
-├── sensor.py
-├── src
-│   ├── all.sh
-│   ├── gpio_control.py
-│   ├── make_data.sh
-│   ├── picking.py
-│   ├── sensor.py
-│   ├── theater.sh
-│   └── usb_control.py
-├── theater.sh
-├── time_arr
-│   ├── demo_impact.npy
-│   ├── demo_impact.txt
-│   ├── demo_silence.npy
-│   ├── demo_silence.txt
-│   ├── demo_time.npy
-│   ├── demo_time.txt
-│   ├── demo_yell.npy
-│   └── demo_yell.txt
-└── wav
-    └── demo.wav
+# Usage
+Please look at [Raspberry Piで4DXを作る](https://qiita.com/north_redwing/items/825f00db6493e16236b4) for details.
